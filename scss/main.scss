@@ -11,6 +11,8 @@ body{
     font-weight: 500 !important;
     overflow: hidden !important;
 }
+
+// Asosiy oynaga stil berish
 .container{
     width: 100%;
     height:100vh;
@@ -55,7 +57,7 @@ h1{
 p{
     display: inline-block;
 }
-
+// Modallarga stil berish
 .yutti, .yutqazdi{
     width: 100%;
     height: 100vh;
@@ -81,7 +83,6 @@ p{
     }
 }
 
-
 .res{
     position: relative;
     width: 100%;
@@ -89,6 +90,8 @@ p{
     top: 0;
     left: 0;    
 }
+
+// Rasmlarga stil berish
 .www{
     position: absolute;
     top: 360px;
@@ -125,24 +128,25 @@ p{
     display: none;
 }
 
+// P yordam tegi uchun berilgan stil
 .yordam{
     width: 95%;
+    height: 30px !important;
     text-align: center;
     font-size: 30px;
     color: #2c3e50;
-    position: absolute;
-    top: 260px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-bottom: 15px;
+    margin-top: -70px;
 }
 
+// Media query qismi
 @media screen and ( max-width: 550px) and (min-width: 200px) {
     h1{
         font-size: 39px;
     }
     .yordam{
         font-size: 25px;
-        margin-top: 10px;
+        margin-top: -60px;
     }
     input{
         width: 80%;
